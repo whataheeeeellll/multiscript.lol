@@ -1,8 +1,6 @@
-
 if getgenv().multiscriptlolExecuted then
     return
 end
-getgenv().multiscriptlolExecuted = true
 
 if not game:IsLoaded() then
     game.Loaded:Wait()
@@ -169,6 +167,7 @@ function Loader:Execute()
         
         if success then
             self:Notify("multiscript.lol", "Script has been found and successfully loaded", 4, Color3.fromRGB(0, 200, 0))
+            getgenv().multiscriptlolExecuted = true
         else
             self:Notify("multiscript.lol", "Unexpected error", 4, Color3.fromRGB(255, 0, 0))
         end
