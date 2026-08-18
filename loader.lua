@@ -16,8 +16,8 @@ Loader.Notifications = {}
 
 Loader.Config = {
     Mirrors = {
-        "https://raw.githubusercontent.com/whataheeeeellll/Multigame-AimlockAndESP/main/games/",
-        "https://cdn.jsdelivr.net/gh/whataheeeeellll/Multigame-AimlockAndESP@main/games/",
+        "https://raw.githubusercontent.com/whataheeeeellll/multiscript.lol/main/games/",
+        "https://cdn.jsdelivr.net/gh/whataheeeeellll/multiscript.lol@main/games/",
     }
 }
 
